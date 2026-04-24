@@ -1,0 +1,22 @@
+{
+  "name": "traivel-part2-finish",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "main": "agent.ts",
+  "scripts": {
+    "web": "npx @google/adk-devtools web",
+    "cli": "npx @google/adk-devtools run agent.ts",
+    "web:db": "npx @google/adk-devtools web --session_service_uri \"sqlite://./traivel.db\"",
+    "api": "npx @google/adk-devtools api_server",
+    "runner": "npx tsx --env-file=.env runner.ts"
+  },
+  "dependencies": {
+    "@google/adk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^1.0.0",
+    "typescript": "^6.0.3",
+    "yaml": "^2.8.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "traivel-part1-finish",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "agent.ts",
+  "scripts": {
+    "web": "npx @google/adk-devtools web",
+    "cli": "npx @google/adk-devtools run agent.ts"
+  },
+  "dependencies": {
+    "@google/adk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^1.0.0",
+    "typescript": "^6.0.3",
+    "yaml": "^2.8.3"
+  }
+}
